@@ -1,0 +1,94 @@
+
+.registration-page {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+ 
+  background-color: #fff5f8;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.registration-page h1 {
+  text-align: center;
+  color: #ff6f9c;
+}
+
+.registration-page p {
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #ff6f9c;
+  box-shadow: 0 0 5px rgba(255, 111, 156, 0.5);
+}
+
+
+.checkbox-group input,
+.checkbox-group label {
+  margin-right: 8px;
+}
+
+.submit-btn {
+  background-color: #ff6f9c;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.submit-btn:hover {
+  background-color: #ff507d;
+  transition: background-color 0.3s ease;
+}
+
+
+.input-error {
+  border-color: #e74c3c;
+  box-shadow: 0 0 5px rgba(231, 76, 60, 0.5);
+}
+
+.error-text {
+  color: #e74c3c;
+  font-size: 12px;
+  margin-top: 5px;
+}

@@ -1,0 +1,39 @@
+
+.makeup-article {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center; 
+    text-align: center;
+    width: 90%; 
+    max-width: 800px; 
+    margin: 20px auto; 
+  }
+  
+  .arrow {
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .additional-content {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .additional-section {
+    margin-bottom: 15px;
+  }
+  
+  .makeup-article img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  

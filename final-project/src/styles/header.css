@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+
+header {
+  text-align: center;
+  padding: 20px 0;
+  background: radial-gradient(circle, rgb(241, 226, 216), pink, rgb(235, 112, 153));
+  transition: background-color 0.3s, color 0.3s; 
+}
+
+
+
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  color: #333;
+  letter-spacing: 2px;
+  transition: color 0.3s; 
+}
+
+
+
+
+.header-logo {
+  width: 100px;
+  height: auto;
+ 
+}
+
+

@@ -1,0 +1,67 @@
+.makeup-page {
+    padding: 20px;
+    background-color: #fff5f7;
+  }
+  
+  .makeup-page h1 {
+    color: #d63384;
+    margin-bottom: 20px;
+  }
+  
+  .makeup-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .makeup-article {
+    width: 80%;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .makeup-article h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .makeup-article p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .makeup-article img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  .additional-content {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .read-more {
+    display: block;
+    margin: 10px auto 0; 
+    background-color: #f09;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .read-more:hover {
+    background-color: #c06;
+  }
+  .makeup-page .accordion {
+  
+    display: none;
+  }
+  

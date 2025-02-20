@@ -1,0 +1,32 @@
+.footer {
+  background: radial-gradient(circle, rgb(241, 226, 216), pink, rgb(235, 112, 153)); 
+  color: #0f0f0f;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 40px;
+  position: relative; 
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+.social-links {
+  
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.social-link {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.social-link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,138 @@
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+
+.hamburger {
+    display: none; 
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333;
+}
+
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    position: relative; 
+}
+
+.menu li {
+    position: relative; 
+}
+
+.menu button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.menu button:hover {
+    color: #007bff;
+}
+
+
+.dropdown-content {
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    background-color: pink;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+    border-radius: 5px;
+    min-width: 200px;
+    opacity: 0; 
+    visibility: hidden; 
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.menu li:hover .dropdown-content,
+.menu li .dropdown-content.open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.dropdown-content li {
+    margin: 0;
+    padding: 10px 20px;
+}
+
+.dropdown-content button {
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    color: #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-content button:hover {
+    background-color: rgb(250, 218, 223);
+    color: #3d3d3d;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block; 
+    }
+
+    .menu {
+        flex-direction: column;
+        display: none; 
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: pink;
+        border-top: 1px solid #ddd;
+        padding: 20px 0;
+    }
+
+    .menu.open {
+        display: flex;
+    }
+
+    .menu li {
+        padding: 10px 20px;
+        text-align: center;
+    }
+
+    .dropdown-content {
+        position: static; 
+        background-color: pink;
+        box-shadow: none;
+        border-radius: 0;
+        min-width: unset;
+        padding: 10px 0;
+        transform: none;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .dropdown-content button {
+        text-align: center;
+    }
+}
